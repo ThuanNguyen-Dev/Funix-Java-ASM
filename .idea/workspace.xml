@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9a3fe8c-bcf4-4a5c-adb3-0de916a9f079" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vn/funix/FX18801/java/ASM01/ASM01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vn/funix/FX18801/java/ASM01/ASM01.java" afterDir="false" />
-    </list>
+    <list default="true" id="f9a3fe8c-bcf4-4a5c-adb3-0de916a9f079" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Workspace/FUNIX-Workspace/ASM/ThuanntvFX18801",
+    "last_opened_file_path": "D:/Workspace/FUNIX-Workspace/Funix-Java-ASM",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +78,7 @@
       <workItem from="1670258316631" duration="1971000" />
       <workItem from="1670336387601" duration="13658000" />
       <workItem from="1670482316820" duration="10135000" />
+      <workItem from="1670497642892" duration="520000" />
     </task>
     <task id="LOCAL-00001" summary="Done ASM1 JAVA">
       <created>1670349800367</created>
@@ -96,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670495732115</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Done ASM1 JAVA">
+      <created>1670497760529</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670497760529</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
