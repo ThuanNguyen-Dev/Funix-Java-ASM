@@ -98,20 +98,24 @@ public class ASM01 {
                 if (b == true) {
                     // set b = false
                     b = false;
+                    int status = 0;
                     System.out.print("Vui long nhap so CCCD: ");
                     // check if CCCD is in correct format
                     while (scanner.hasNext()) {
                         CCCD = scanner.next();
-                        if (CCCD.equals("No") || CCCD.equals("no")) {
-                            System.exit(0);
-                        }
                         // if CCCD is correct format
                         if (CCCD.length() == 12 && CCCD.matches("[0-9]+") && checkCCCD(CCCD) == true) {
                             b = true;
                             break;
                         } else {
+                            if (status >= 1) {
+                                if (CCCD.equals("No") || CCCD.equals("no")) {
+                                    System.exit(0);
+                                }
+                            }
                             System.out.println("So CCCD khong hop le.\n" +
                                     "Vui long nhap lai hoac ‘No’ de thoat");
+                            status++;
                         }
                     }
 
