@@ -135,7 +135,7 @@ public class ASM02 {
             if (bank.isCustomerExisted(CCCD)) {
                 System.out.println("Khách hàng " + CCCD + " đã tồn tại!");
                 break;
-            } else if (bank.addCustomer(new Customer(nameCustomer, CCCD)) == true) {
+            } else if (bank.addCustomer(new Customer(nameCustomer, CCCD))) {
                 System.out.println("Đã thêm khách hàng " + CCCD + " vào danh sách");
                 break;
             }
@@ -335,7 +335,6 @@ public class ASM02 {
                 throw new Exception();
             }
         } catch (Exception e) {
-            b = false;
             System.out.println("Mã STK không hợp lệ.\n" +
                     "Vui lòng nhập lại hoặc nhập ‘No’ để thoát chương trình");
         }
